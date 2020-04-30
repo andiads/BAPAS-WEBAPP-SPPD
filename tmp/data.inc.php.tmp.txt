@@ -1,0 +1,33 @@
+<?php
+include 'dbcon.php';
+class myData {
+private $q = "";
+
+public function getDataPegawai(){}
+public function getDataUser($tb,$f="*",$wh,){
+
+}
+public function getDataRole(){}
+public function getDataSPPD() {}
+public function getReportSPPD() {}
+
+public function insertDataPegawai() {}
+public function insertDataUser() {}
+public function insertDataRole() {}
+public function insertDataSPPD() {}
+public function insertReportSPPD() {}
+
+public function updateDataPegawai() {}
+public function updateDataUser() {}
+public function updateDataRole() {}
+public function updateDataSPPD() {}
+public function updateReportSPPD() {}
+
+public function deleteDataPegawai() {}
+public function deleteDataUser() {}
+public function deleteDataRole() {}
+public function deleteDataSPPD() {}
+public function deleteReportSPPD() {}
+
+}
+?>
